@@ -10,9 +10,9 @@ export const BotonScroll = () => {
 
 
     return (
-        <div className='text-center'>
-            <button className="btn btn-primary" onClick={() => {{ scroll() }}}>
-                Arriba
+        <div className='text-center float-right'>
+            <button className="btn btn-primary mb-4 fs-6 " onClick={() => {{ scroll() }}}>
+              Inicio
             </button>
         </div>
     )

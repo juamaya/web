@@ -13,9 +13,11 @@ export const Card = (props) => {
                     </div>
                     <div className="col-md-8 bg-secondary ">
                         <div className="card-body text-white">
-                            <h2 className="card- mb-5">{props.job}</h2>
-                            <p className="card-text">✅    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p className="card-text">✅    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                       <div className="fs-4 fw-2 text-warning"><i className={props.icon}></i></div> 
+                            <h2 className="card-title mb-5 text-warning">{props.job}</h2>
+                           
+                            <p className="card-text">✅ {props.texto}</p>
+                            <p className="card-text">✅ {props.texto1}</p>
                         </div>
                     </div>
                 </div>
